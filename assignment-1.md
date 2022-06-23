@@ -48,6 +48,8 @@ As you can see, `filter` takes a function `positive?` and a list, and end up pro
 
 2. If you use `foldl` and `reverse` to complete, does it still fast as builtin `filter`? If so, why? If not, why?
 
+    NOTE: use `time` to measure performance, `for` loop might needed.
+
 ### Question 2: `map`
 
 ```racket
